@@ -3,7 +3,7 @@ import { FaAndroid } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className="container flex justify-center items-center min-h-[80vh]">
+    <div className=" hero flex justify-center items-center min-h-[80vh]">
       <div class="bg-green-500 w-[95%] md:w-[80%] lg:w-[50%] bg-opacity-50 p-8 rounded-3xl shadow-lg text-center ">
         <h1 class="text-2xl md:text-4xl font-bold text-white mb-4">
           Dominate the Fairway with Golf Me

@@ -9,9 +9,31 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.Home {
+.hero {
   min-height: 100vh;
   background-image: url("/webBg.png");
   background-size: cover;
   background-position: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #166534;
+  border-radius: 5rem;
+  border: 2px solid #cccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 94, 0);
 }
