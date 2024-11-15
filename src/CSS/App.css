@@ -11,7 +11,7 @@
 
 .Home {
   min-height: 100vh;
-  background-image: url("/webBg.svg");
+  background-image: url("/webBg.png");
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
