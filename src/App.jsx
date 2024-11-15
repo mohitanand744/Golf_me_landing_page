@@ -33,7 +33,7 @@ function App() {
                 </ul>
               </div>
 
-              <div class="bg-white lg:absolute w-[100%] md:w-[25rem] lg:w-[30rem] border-[5px] border-blue-400 rounded-3xl shadow-lg p-4 md:p-6   top-56 right-10">
+              <div class="bg-white lg:absolute w-[100%] md:w-[25rem] lg:w-[30rem] mt-2 border-[5px] border-blue-400 rounded-3xl shadow-lg p-4 md:p-6   top-56 right-10">
                 <h2 class="text-lg md:text-xl text-center font-semibold text-blue-600 mb-2">
                   Join Contest
                 </h2>
