@@ -1,11 +1,13 @@
 import "./CSS/App.css";
 import "./CSS/responsiveness.css";
+import Footer from "./components/Footers/Footer";
 import Navbar from "./components/Headers/Nav";
 import HeroSection from "./components/Hero Sections/HeroSection";
+import Testimonials from "./components/Testimonials/Testimonial";
 
 function App() {
   return (
-    <div className="Home">
+    <>
       <Navbar />
       <HeroSection />
       <section className="features bg-green-800 h-fit lg:h-[30rem] ">
@@ -90,7 +92,87 @@ function App() {
           </div>
         </div>
       </section>
-    </div>
+      <Testimonials />
+
+      <section className="h-full bg-green-800 py-14">
+        <h1 className="text-4xl font-bold text-center text-white mb-14">
+          FAQs
+        </h1>
+        <div className="w-[96%] md:w-[80%] mx-auto">
+          <div className="flex flex-col items-center justify-center gap-5 mb-10 md:mb-0">
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" className="s" />
+              <div className="text-[1rem] font-medium text-blue-500 md:text-xl collapse-title">
+                1. What is this app for?
+              </div>
+              <div className="collapse-content">
+                <p>
+                  This app is designed to help golfers of all skill levels track
+                  their progress, engage in challenges, and connect with the
+                  wider golfing community.
+                </p>
+              </div>
+            </div>
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                2. Is the app free to use?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the second accordion</p>
+              </div>
+            </div>
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                3. How do I create an account?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the third accordion</p>
+              </div>
+            </div>{" "}
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                4. How do I add funds to my account?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the third accordion</p>
+              </div>
+            </div>{" "}
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                5. What types of challenges can I enter?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the third accordion</p>
+              </div>
+            </div>{" "}
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                6. How do I win challenges?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the third accordion</p>
+              </div>
+            </div>{" "}
+            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+              <input type="checkbox" />
+              <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
+                7. Is there a prize for winning the leaderboard?
+              </div>
+              <div className="collapse-content">
+                <p>Content for the third accordion</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
   );
 }
 
