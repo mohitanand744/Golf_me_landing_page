@@ -100,7 +100,7 @@ function App() {
         </h1>
         <div className="w-[96%] md:w-[80%] mx-auto">
           <div className="flex flex-col items-center justify-center gap-5 mb-10 md:mb-0">
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" className="s" />
               <div className="text-[1rem] font-medium text-blue-500 md:text-xl collapse-title">
                 1. What is this app for?
@@ -113,7 +113,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 2. Is the app free to use?
@@ -122,7 +122,7 @@ function App() {
                 <p>Content for the second accordion</p>
               </div>
             </div>
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 3. How do I create an account?
@@ -131,7 +131,7 @@ function App() {
                 <p>Content for the third accordion</p>
               </div>
             </div>{" "}
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 4. How do I add funds to my account?
@@ -140,7 +140,7 @@ function App() {
                 <p>Content for the third accordion</p>
               </div>
             </div>{" "}
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 5. What types of challenges can I enter?
@@ -149,7 +149,7 @@ function App() {
                 <p>Content for the third accordion</p>
               </div>
             </div>{" "}
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 6. How do I win challenges?
@@ -158,7 +158,7 @@ function App() {
                 <p>Content for the third accordion</p>
               </div>
             </div>{" "}
-            <div className="text-black bg-white md:rounded-full collapse collapse-arrow">
+            <div className="text-black bg-white md:rounded-3xl collapse collapse-arrow">
               <input type="checkbox" />
               <div className="text-lg font-medium text-blue-500 md:text-xl text-[1rem] collapse-title">
                 7. Is there a prize for winning the leaderboard?
@@ -166,6 +166,43 @@ function App() {
               <div className="collapse-content">
                 <p>Content for the third accordion</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-2 py-6 bg-white xl:px-32 md:py-14 h-fit">
+        <div className="container grid grid-cols-12 mx-auto bg-blue-500 rounded-3xl">
+          <div className="flex justify-center col-span-12 px-10 border-b border-white shadow-xl md:border-none md:shadow-none rounded-b-3xl lg:col-span-9">
+            <img src="/GroupMobils.png" alt="" />
+          </div>
+          <div className="flex flex-col items-center justify-center col-span-12 gap-4 p-6 lg:col-span-3">
+            <img
+              src="/icon.svg"
+              className="w-[6.5rem] md:w-[8rem] mx-auto"
+              alt=""
+            />
+            <div class="flex flex-wrap items-center gap-3 justify-center">
+              <a
+                href="#"
+                class="border-white w-[14rem] border-2 flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-2xl shadow-lg text-md"
+              >
+                <img src="/appleLogo.png" alt="" />
+                <span>
+                  Download on the{" "}
+                  <strong className="text-xl md:text-2xl">App Store</strong>
+                </span>
+              </a>
+              <a
+                href="#"
+                class="border-white w-[14rem] border-2 flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-2xl shadow-lg"
+              >
+                <img src="/playStory.png" alt="" />
+                <span>
+                  Download on the{" "}
+                  <strong className="text-xl md:text-2xl">Play Store</strong>
+                </span>
+              </a>
             </div>
           </div>
         </div>
