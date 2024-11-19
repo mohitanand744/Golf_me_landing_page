@@ -1,5 +1,6 @@
 import "./CSS/App.css";
 import "./CSS/responsiveness.css";
+import ContactSupport from "./components/ContactForms/ContactSupport";
 import Footer from "./components/Footers/Footer";
 import Navbar from "./components/Headers/Nav";
 import HeroSection from "./components/Hero Sections/HeroSection";
@@ -207,6 +208,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <ContactSupport />
 
       <Footer />
     </>
